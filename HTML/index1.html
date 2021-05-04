@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul#nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        ul#nav li a:hover {
+            background-color: #111111;
+        }
+
+        ul#nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        ul#nav li {
+            float: left;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        #t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        #t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        #t01 th {
+            background-color: black;
+            color: white;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 15px;
+            text-align: left;
+
+        }
+
+        table {
+            border-spacing: 15px;
+        }
+
+        a:link,
+        a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        body {
+            background-image: url('img_girl.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+
+        /* a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <h1>My First Heading</h1>
+
+    <p title="I'm a tooltip">This is a paragraph.</p>
+
+    <pre>
+    My Bonnie lies over the ocean.
+ 
+    My Bonnie lies over the sea.
+ 
+    My Bonnie lies over the ocean.
+    
+    Oh, bring back my Bonnie to me.
+ </pre>
+    <a href="https://www.google.com">Google</a>
+    <b>This text is bold</b>
+
+    <strong>This text is important!</strong>
+
+    <i>This text is italic</i>
+
+    <em>This text is emphasized</em>
+
+    <small>This is some smaller text.</small>
+
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    <p>My favorite color is <del>blue</del> red.</p>
+
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+    <p>This is <sub>subscripted</sub> text.</p>
+
+    <p>This is <sup>superscripted</sup> text.</p>
+
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation
+        organization, WWF works in 100 countries and is supported by more than one million members in the United States
+        and close to five million globally.
+    </blockquote>
+
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+
+    <a href="https://www.w3schools.com/" target="_self">Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_parent">Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_top">Visit W3Schools!</a><br>
+
+    <a href="mailto:someone@example.com">Send email</a>
+    <br>
+    <button onclick="document.location='https://www.w3schools.com/html/html_links.asp'">HTML Tutorial</button><br>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="img_food.jpg">
+        <source media="(min-width: 465px)" srcset="img_car.jpg">
+        <img src="img_girl.jpg">
+    </picture>
+    <table id="t01">
+        <caption>Personal Info</caption>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width:100%">
+
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width:100%">
+        <tr>
+            <th>Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>55577854</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+    </table>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>white cold drink</dd>
+    </dl>
+
+    <h2>Unordered List without Bullets</h2>
+
+    <ul style="list-style-type:none;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Unordered List with Square Bullets</h2>
+
+    <ul style="list-style-type:square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Unordered List with Circle Bullets</h2>
+
+    <ul style="list-style-type:circle;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Unordered List with Disc Bullets</h2>
+
+    <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>Navigation Menu</h2>
+    <p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+    <ul id="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <h2>HTML Iframes</h2>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe src="https://app.getbravo.io" height="200" width="300" title="Iframe Example"></iframe>
+<h2>Computer Code</h2>
+<p>Some programming code:</p>
+
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+
+
+</body>
+
+</html>

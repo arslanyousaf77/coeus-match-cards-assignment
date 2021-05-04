@@ -1,0 +1,40 @@
+Piece
+    -move
+    -
+
+Pawn
+    -move
+    -
+
+Board
+    -@2D Array
+    -GetBoard
+    -Initialize
+    -UpdateBoard
+
+
+Game
+    -Board Object
+    -WhitePlayer Object
+    -BlackPlayer Object
+    -Play
+    -Quit
+
+    b[u][i] = "-"
+    b[1][0] = "W Pawn"
+    b[6][i] = "B Pawn"
+
+
+Player
+    -GetMyAvailablePieces
+    -GetAvailableMoves(Piece)
+    -GetAllPiecesPosition
+    -GetCapturedPieces
+    -
+    -Turn(piece, oldPosition, newPosition)
+    -CapturedPieces[]
+    -Quit
+
+Position
+    -x
+    -y
